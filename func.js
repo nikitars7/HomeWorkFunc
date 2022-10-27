@@ -15,7 +15,7 @@ function pow(x = first, n = second) {
    } else if (isNaN(x) || isNaN(n)) {
       alert('Вводить можно только цифры!');
    } else {
-      return alert(`Результат : ${x ** n}`);
+      alert(`Результат : ${x ** n}`);
    }
 }
 
